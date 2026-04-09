@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    margin: 2px solid black;
+}
+
+.full{
+    border: 2px solid black;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(218, 218, 231);
+
+}
+h1{
+    font-size: 60px;
+    margin-left: 175px;
+
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2px solid black; */
+    
+}
+.Increase ,
+.Decrease{
+    font-size: 35px;
+    background-color: rgb(228, 228, 128);
+    margin: 33px;
+    cursor: pointer;
+    
+}
