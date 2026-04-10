@@ -14,7 +14,7 @@ b.addEventListener("click",function(){
 let c=document.querySelector(".Decrease") 
 c.addEventListener("click",function(){
     if(count>0){
-        a.innerHTML= count--;
+        a.innerHTML= --count;
     }
     else{
         a.innerHTML=count;

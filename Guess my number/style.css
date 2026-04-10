@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    border: 2px solid #eee;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #222;
+    color: #eee;
+    gap: 12px;
+    width: 400px
+    
+    
+
+}
+
+p{
+    font-size: 25px;
+}
+#check-btn{
+    font-size: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#num{
+    height: 29px;
+    width: 244px;
+    padding: 4px;
+}
+.both{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+#score-label{
+    font-size: 23px;
+}
+#highscore-label{
+    font-size: 23px;
+}
+#reset-btn{
+    font-size: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#secret-box{
+    height: 80px;
+    width: 80px;
+    color: #333;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #eee;
+    cursor: pointer;
+    filter: blur(2px);
+}
