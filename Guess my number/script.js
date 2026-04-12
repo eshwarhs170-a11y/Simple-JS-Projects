@@ -7,7 +7,7 @@ console.log(secretnumber)
 
 const a=document.querySelector("#num")
 a.addEventListener(".value",function(){
-    console.log(a.value)
+    
 })
 
 
