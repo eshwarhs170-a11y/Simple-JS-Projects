@@ -37,3 +37,44 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+.qoute-box blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+.qoute-box blockquote::before, .qoute-box blockquote::after{
+    content: '"';
+}
+.qoute-box span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.qoute-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.qoute-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.qoute-box button{
+    background-color: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
