@@ -78,3 +78,7 @@ body{
     margin: 5px;
     cursor: pointer;
 }
+.qoute-box button img{
+    width: 30px;
+    margin-right: 20px;
+}
